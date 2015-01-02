@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark">#22000000</color>
+    <color name="tansparent">#00000000</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="textColorPrimaryDark">#ff000000</color>
+
+</resources><!-- @android:color/transparent -->
+<!-- 配置颜色属性，供drawable下配置的状态选择器使用， -->

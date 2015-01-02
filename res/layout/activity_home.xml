@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textSize="24sp" />
+    <!--
+          <TextView 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:text="中秋特别版，下载送月饼，哈哈哈，呼呼呼，嘻嘻嘻，hiahiahia，嘎嘎嘎"/>
+    -->
+
+    <com.itheima.mobilesafe.ui.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="中秋特别版，下载送月饼，哈哈哈，呼呼呼，嘻嘻嘻，hiahiahia，嘎嘎嘎" />
+
+<!--         android:listSelector="@drawable/list_selector" -->
+    <GridView
+        android:listSelector="@color/tansparent"
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>

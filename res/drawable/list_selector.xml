@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@color/dark" /> <!-- pressed -->
+    <item android:state_focused="true"
+          android:drawable="@color/dark" /> <!-- focused -->
+    <item android:drawable="@color/tansparent" /> <!-- default -->
+</selector>
+
+<!-- 状态选择器，配置home界面中不同按钮按下等状态下的情况。Gridview布局使用的 -->

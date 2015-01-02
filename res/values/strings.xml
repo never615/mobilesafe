@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mobilesafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sample_device_admin_description">我是设备的超级管理员，必须开启，不开扣你500块钱！！！！</string>
+    <string name="sample_device_admin">黑马卫士管理器</string>
+
+    <style name="MyProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_white</item>
+        <item name="android:minWidth">60dip</item>
+        <item name="android:maxWidth">60dip</item>
+        <item name="android:minHeight">60dip</item>
+        <item name="android:maxHeight">60dip</item>
+    </style>
+
+</resources>

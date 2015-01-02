@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.itheima.mobilesafe.activites.HomeActivity"
+        config="layout-sw320dp-w320dp-h480dp-normal-notlong-port-notnight-mdpi-finger-keyshidden-qwerty-navhidden-nonav-480x320-v18"
+        device="3.2in HVGA slider (ADP1)"
+        devicestate="Portrait"
+        target="Android 4.3"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <!-- 这个自定义组合控件中需要有什么？1.标题 2.说明文字content  3. checkbox -->
+
+    <TextView
+        android:id="@+id/tv_setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv_setting_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_setting_title"
+        android:layout_marginLeft="5dp"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/cb_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/btn_check"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1px"
+        android:layout_alignParentBottom="true"
+        android:background="#000000" />
+
+</RelativeLayout>

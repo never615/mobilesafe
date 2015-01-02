@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <ImageView
+        android:id="@+id/iv_cacheinfo_icon"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/app" />
+
+    <TextView
+        android:id="@+id/tv_cacheinfo_name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_cacheinfo_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="#000000"
+        android:textSize="20sp" 
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tv_cacheinfo_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="缓存大小"
+        android:textColor="#88000000"
+        android:textSize="17sp" 
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
