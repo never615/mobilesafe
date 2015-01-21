@@ -148,6 +148,8 @@ public class AppManagerActivity extends Activity implements OnClickListener {
 					dismissPopupWindow();
 					View contentView = View.inflate(getApplicationContext(),
 							R.layout.popup_item, null);
+					
+					//popup中按钮的点击事件
 					contentView.findViewById(R.id.ll_uninstall)
 							.setOnClickListener(AppManagerActivity.this);
 					contentView.findViewById(R.id.ll_share).setOnClickListener(
